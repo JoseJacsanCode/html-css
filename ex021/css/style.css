@@ -1,0 +1,30 @@
+h1 { /*box-level*/
+    background-color: rgb(112, 18, 18);
+    width: 300px;
+    height: 300px;
+    color: white;
+
+    border: 10px solid darkblue;
+
+    padding: 10px 20px;
+
+    margin: 20px auto 40px auto;
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: orangered;
+
+    outline: 5px dashed orangered;
+}
+
+a {/*inline-level*/
+    display: block;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+
+    border: 10px solid red;
+
+    padding: 10px;
+
+}
