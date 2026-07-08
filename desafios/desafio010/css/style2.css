@@ -6,6 +6,11 @@ main {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    width: 840px;
+    min-width: 320px;
+    max-width: 840px;
     margin: auto;
+}
+
+img {
+    width: 100%;
 }
